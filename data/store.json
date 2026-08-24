@@ -1,0 +1,106 @@
+{
+  "settings": {
+    "brand": "DisasterMC",
+    "tagline": "The adventure is calling.",
+    "serverIp": "play.disastermc.fun",
+    "serverIcon": "/assets/server-icon.svg",
+    "logo": "/assets/logo.svg",
+    "favicon": "/favicon.svg"
+  },
+  "categories": [
+    {
+      "id": "ranks",
+      "name": "Ranks",
+      "icon": "\u2726"
+    },
+    {
+      "id": "keys",
+      "name": "Keys",
+      "icon": "\u2318"
+    },
+    {
+      "id": "cosmetics",
+      "name": "Cosmetics",
+      "icon": "\u273a"
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "icon": "\u2665"
+    }
+  ],
+  "products": [
+    {
+      "id": "ember",
+      "category": "ranks",
+      "name": "Ember Rank",
+      "price": 12.99,
+      "sale": 9.99,
+      "description": "A warm start with premium chat styling and exclusive kits.",
+      "image": "/assets/rank-ember.svg",
+      "enabled": true,
+      "order": 1,
+      "badge": "25% OFF"
+    },
+    {
+      "id": "nova",
+      "category": "ranks",
+      "name": "Nova Rank",
+      "price": 24.99,
+      "sale": 18.99,
+      "description": "Command the realm with cosmetics, boosters and more.",
+      "image": "/assets/rank-nova.svg",
+      "enabled": true,
+      "order": 2,
+      "badge": "MOST POPULAR"
+    },
+    {
+      "id": "crown",
+      "category": "ranks",
+      "name": "Sovereign Rank",
+      "price": 44.99,
+      "sale": 34.99,
+      "description": "The complete DisasterMC experience, forged for legends.",
+      "image": "/assets/rank-crown.svg",
+      "enabled": true,
+      "order": 3,
+      "badge": "LIMITED"
+    },
+    {
+      "id": "vault",
+      "category": "keys",
+      "name": "Celestial Key",
+      "price": 4.99,
+      "sale": 3.99,
+      "description": "Unlock a cosmic crate filled with rare surprises.",
+      "image": "/assets/key.svg",
+      "enabled": true,
+      "order": 1,
+      "badge": "20% OFF"
+    },
+    {
+      "id": "aura",
+      "category": "cosmetics",
+      "name": "Aurora Aura",
+      "price": 7.99,
+      "sale": null,
+      "description": "Leave a radiant trail on every adventure.",
+      "image": "/assets/aura.svg",
+      "enabled": true,
+      "order": 1,
+      "badge": "NEW"
+    },
+    {
+      "id": "boost",
+      "category": "support",
+      "name": "Network Booster",
+      "price": 3.99,
+      "sale": null,
+      "description": "Boost the entire server and share the rewards.",
+      "image": "/assets/boost.svg",
+      "enabled": true,
+      "order": 1,
+      "badge": "COMMUNITY"
+    }
+  ]
+}
